@@ -6,3 +6,5 @@ nltk
 scikit-learn
 xgboost
 dvclive
+dvc[s3]
+awscli

@@ -32,3 +32,18 @@ This Project Covers The End-To-End Implementation for a Machine Learning Pipelin
 - Do **"dvc exp remove {exp-name}"** to remove exp (optional) | **"dvc exp apply {exp-name}"** to reproduce prev exp
 - Change params, re-run code (produce new experiments)
 - Now git add, commit, push
+
+## Adding a remote S3 Storage To DVC ->
+
+- Login to AWS Console
+- Create an IAM User (Straight Forward Process)
+- Attach Policies to the User -> AdministratorAccess , Then Create Access Key ID and Secret Access Key
+- Create an S3 Bucket (Enter Unique Name and Create)
+- pip install dvc[s3]
+- pip install awscli
+- aws configure
+- dvc remote add -d dvcstore s3://bucket-name
+- dvc commit, dvc push the exp output that we want to save
+- Finally git add, commit, push
+
+### Do Not Forget To Delete The IAM User and S3 Bucket When You Are Done With The Project Not To Cost You
