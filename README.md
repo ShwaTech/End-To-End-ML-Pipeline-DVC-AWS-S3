@@ -8,3 +8,9 @@ This Project Covers The End-To-End Implementation for a Machine Learning Pipelin
 - Add src folder along with all components(run them individually).
 - Add data, models, reports directories to .gitignore file
 - Now git add, commit, push.
+
+## Setting up dcv pipeline (without params) ->
+
+- Create dvc.yaml file and add stages to it.
+- **dvc init** then do **dvc repro** to test the pipeline automation. (check **dvc dag**)
+- Now git add, commit, push
