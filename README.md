@@ -4,7 +4,7 @@ This Project Covers The End-To-End Implementation for a Machine Learning Pipelin
 
 ## Building Pipeline ->
 
-1- Create a GitHub repo and clone it in local (Add experiments).
-2- Add src folder along with all components(run them individually).
-3- Add data, models, reports directories to .gitignore file
-4- Now git add, commit, push.
+- Create a GitHub repo and clone it in local (Add experiments).
+- Add src folder along with all components(run them individually).
+- Add data, models, reports directories to .gitignore file
+- Now git add, commit, push.
