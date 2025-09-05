@@ -14,3 +14,10 @@ This Project Covers The End-To-End Implementation for a Machine Learning Pipelin
 - Create dvc.yaml file and add stages to it.
 - **dvc init** then do **dvc repro** to test the pipeline automation. (check **dvc dag**)
 - Now git add, commit, push
+
+## Setting up dcv pipeline (with params) ->
+
+- add params.yaml file
+- Add the params setup (mentioned below)
+- Do "dvc repro" again to test the pipeline along with the params
+- Now git add, commit, push
